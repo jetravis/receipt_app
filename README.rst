@@ -1,15 +1,7 @@
-FoodCart
+Cart
 ==========
 
 	Python script to take the information from receipt and place in database
-
-.. image:: https://travis-ci.org/lwgray/pyEntrezId.svg?branch=master
-   :target: https://travis-ci.org/lwgray/pyEntrezId
-.. image:: https://coveralls.io/repos/github/lwgray/pyEntrezId/badge.svg?branch=master
-   :target: https://coveralls.io/github/lwgray/pyEntrezId?branch=master    
-.. image:: https://img.shields.io/pypi/v/pyEntrezId.svg
-   :target: https://pypi.python.org/pypi/pyEntrezId
-
 
 Summary
 -------
@@ -23,10 +15,11 @@ MN-Slack: <jetravis@slack.com>
 
 Quick Start
 -----------
+Requires that python2.7 is intalled
 
 ::
-
-    $ python foodcart.py 
+    $ pip install .
+    $ ./cart 
 
 Input
 --------
